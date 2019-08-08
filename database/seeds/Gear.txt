@@ -1,0 +1,482 @@
+Kweh (G),Legendary,Mount
+Ultima Blade (G),Legendary,Regular Sword
+Ziedrich (G),Legendary,Shield
+Balance (H),Legendary,Shield
+Bark of Ra (H),Legendary,Spear
+Nekhbet's Wing (H),Legendary,Warrior Bow
+Ruler of the Storm (H),Legendary,Sickle Sword
+Stick of Bastet (H),Legendary,Scepter
+Balance,Legendary,Shield
+Bark of Ra,Legendary,Spear
+Nekhbet's Wing,Legendary,Warrior Bow
+Ruler of the Storm,Legendary,Sickle Sword
+Stick of Bastet,Legendary,Scepter
+Aguilar's Outfit (C),Legendary,Outfit
+Altair's Outfit (C),Legendary,Outfit
+Bird of Prey (C),Rare,Shield
+Chop-Chop (C),Rare,Sickle Sword
+Corrupted Soul (C),Legendary,Light Bow
+Crocodile's Fang (C),Rare,Heavy Blade
+Crown Jewel (C),Rare,Warrior Bow
+Edward's Outfit (C),Legendary,Outfit
+Ezio's Outfit (C),Legendary,Outfit
+Harlequin (C),Rare,Regular Sword
+Hemet (C),Rare,Hunter Bow
+Hunter's Fur (C),Legendary,Outfit
+Kush Shield (C),Rare,Shield
+Shamshir (C),Rare,Regular Sword
+Sycamore (C),Rare,Heavy Blunt
+The Trial (C),Rare,Spear
+Warden's Oath (C),Legendary,Outfit
+Desert Cobra (H),Legendary,Outfit
+Eye of Apep (H),Legendary,Heavy Blunt
+Fangs (H),Legendary,Mount
+Snakes on a Shield (H),Legendary,Shield
+The Fang (H),Legendary,Sickle Sword
+Celestial Raiment (H),Legendary,Outfit
+Courage and Justice (H),Legendary,Dual Sword
+Guardian Lion (H),Legendary,Shield
+Hou Yi's Bow (H),Legendary,Warrior Bow
+Sword of Goujian (H),Legendary,Regular Sword
+Celestial Raiment,Legendary,Outfit
+Courage and Justice,Legendary,Dual Sword
+Guardian Lion,Legendary,Shield
+Hou Yi's Bow,Legendary,Warrior Bow
+Sword of Goujian,Legendary,Regular Sword
+Fanged Mace (H),Legendary,Heavy Blunt
+Flint Spear (H),Legendary,Spear
+Horn Bow (H),Legendary,Hunter Bow
+Recurve Bow [no perks],Legendary,Light Bow
+Fanged Mace,Legendary,Heavy Blunt
+Flint Spear,Legendary,Spear
+Horn Bow,Legendary,Hunter Bow
+Recurve Bow (H),Legendary,Light Bow
+Flickering Daggers (H),Legendary,Dual Sword
+Glowing Mace (H),Rare,Heavy Blunt
+Lightning's Strike (H),Legendary,Hunter Bow
+Midnight Sun (H),Legendary,Mount
+Moonlit Shield (H),Legendary,Shield
+Flickering Daggers / dup,Legendary,Dual Sword
+Glowing Mace / dup,Legendary,Heavy Blunt
+Lightning's Strike / dup,Legendary,Hunter Bow
+Midnight Sun / dup,Legendary,Mount
+Moonlit Shield / dup,Legendary,Shield
+Imelda Shield (H),Legendary,Shield
+Ippei Blade (H),Legendary,Regular Sword
+Sahalin Axe (H),Legendary,Heavy Blade
+Tempest Blade (H),Legendary,Regular Sword
+Imelda Shield,Legendary,Shield
+Ippei Blade,Legendary,Regular Sword
+Sahalin Axe,Legendary,Heavy Blade
+Tempest Blade,Legendary,Regular Sword
+Hercules' Gladius (H),Legendary,Regular Sword
+Labrys (H),Legendary,Heavy Blade
+Neptune's Grasp (H),Legendary,Spear
+Palladium (H),Legendary,Shield
+Spaniard's Armor (H),Legendary,Outfit
+Hercules' Gladius,Legendary,Regular Sword
+Labrys,Legendary,Heavy Blade
+Neptune's Grasp,Legendary,Spear
+Palladium,Legendary,Shield
+Spaniard's Armor,Legendary,Outfit
+Blades of Thoth,Legendary,Dual Sword
+Bow of Ra,Legendary,Light Bow
+Gertha,Legendary,Mount
+Hammer of Ptah,Legendary,Mount
+Hidden One,Legendary,Outfit
+Painless Death,Legendary,Hunter Bow
+Tooth of Sobek,Legendary,Heavy Blade
+Apophis Herw (H),Legendary,Mount
+Crescent Moon (H),Legendary,Hunter Bow
+Morning Sun (H),Legendary,Light Bow
+Sun and Moon (H),Legendary,Shield
+Vestment of Horus (H),Legendary,Outfit
+Griffin (H),Legendary,Light Bow
+Lion's Mane (H),Legendary,Hunter Bow
+Wings of Ashur (H),Legendary,Warrior Bow
+Griffin,Legendary,Light Bow
+Lion's Mane,Legendary,Hunter Bow
+Wings of Ashur,Legendary,Warrior Bow
+Aruna (H),Legendary,Sickle Sword
+Eye of Ra (H),Legendary,Heavy Blunt
+Wadjet's Knives (H),Legendary,Dual Sword
+Aruna,Legendary,Sickle Sword
+Eye of Ra,Legendary,Heavy Blunt
+Wadjet's Knives,Legendary,Dual Sword
+Mythical Warrior,Legendary,Outfit
+Abyssal Steed (H),Legendary,Mount
+Barbed Longbow (H),Legendary,Predator Bow
+Forlorn Hope (H),Legendary,Heavy Blade
+Ripper (H),Legendary,Sickle Sword
+Shadow Warrior (H),Legendary,Outfit
+Abyssal Steed,Legendary,Mount
+Barbed Longbow,Legendary,Predator Bow
+Forlorn Hope,Legendary,Heavy Blade
+Ripper,Legendary,Sickle Sword
+Shadow Warrior,Legendary,Outfit
+Centurion's Armor (H),Legendary,Outfit
+Divide et Impera (H),Legendary,Heavy Blade
+Lucius, Roman Stallion (H),Legendary,Mount
+Vincit qui Patitur (H),Legendary,Shield
+Vox Populi (H),Legendary,Regular Sword
+Calamity Blade (G),Legendary,Regular Sword
+Calamity Blade (H),Rare,Regular Sword
+Eternal Vigil (H),Legendary,Mount
+Pharaoh's Regalia (H),Legendary,Outfit
+Scorpion Shield (H),Legendary,Shield
+Serket's Reach (H),Legendary,Warrior Bow
+Song of the Desert (H),Legendary,Sickle Sword
+Eternal Vigil / dup,Legendary,Mount
+Pharaoh's Regalia / dup,Legendary,Outfit
+Scorpion Shield / dup,Legendary,Shield
+Serket's Reach / dup,Legendary,Warrior Bow
+Song of the Desert / dup,Legendary,Sickle Sword
+Cotton Swab (H),Legendary,Scepter
+Cupid's Bow (H),Legendary,Light Bow
+LOLCAT (H),Legendary,Heavy Blunt
+Swordfish (H),Legendary,Regular Sword
+Unicamel (H),Legendary,Mount
+Cotton Swab /  dup,Legendary,Scepter
+Cupid's Bow / dup,Legendary,Light Bow
+LOLCAT / dup,Legendary,Heavy Blunt
+Swordfish / dup,Legendary,Regular Sword
+Unicamel / dup,Legendary,Mount
+Aa Nekhtou,Legendary,Mount
+Acacia Rod,Rare,Scepter
+Achilles Heel Seeker,Common,Hunter Bow
+Adamant Reed (G),Rare,Spear
+Adamant Reed / dup,Rare,Spear
+Aegean Prince,Rare,Shield
+Alchemist's Dream,Rare,Hunter Bow
+Aldebaran (QLT 94),Rare,Warrior Bow
+Aldebaran (QLT 96),Rare,Warrior Bow
+Alexander's Shield,Rare,Shield
+Alexandria's Light (H),Legendary,Scepter
+Alexandria's Light / dup,Legendary,Scepter
+Amenhotep's Bow,Legendary,Predator Bow
+Ammit (G),Legendary,Shield
+Amun's Blade,Common,Regular Sword
+Amun's Might,Legendary,Regular Sword
+Ancestral Bow,Rare,Predator Bow
+Annapolis,Common,Mount
+Antigonus Shield,Rare,Shield
+Apedemak,Legendary,Light Bow
+Apep's Staff (H),Legendary,Scepter
+Apep's Staff / dup,Legendary,Scepter
+Arc Bow,Common,Light Bow
+Ash Bow,Legendary,Hunter Bow
+Assessor of Ma'at (G),Legendary,Warrior Bow
+Aten's End,Legendary,Spear
+Auxiliary Shield (G),Rare,Shield
+Auxiliary Shield / dup,Rare,Shield
+Basus,Common,Mount
+Bathhouse Towel,Common,Outfit
+Battle of Gibeon Blade,Common,Sickle Sword
+Battleaxe,Common,Heavy Blade
+Battos' Bow,Rare,Warrior Bow
+Bayek's Outfit,Common,Outfit
+Berserker Blade,Legendary,Sickle Sword
+Big Game Bow,Common,Hunter Bow
+Bitter Bow,Rare,Light Bow
+Bitter Bow (empty),Rare,Light Bow
+Black Arrow,Common,Mount
+Black Hood,Legendary,Outfit
+Bladed Scepter,Rare,Scepter
+Blazing Glory,Rare,Mount
+Bone Cracker,Rare,Mount
+Bone-Cracker,Rare,Heavy Blunt
+Boredom Bane,Common,Heavy Blunt
+Bow of Arash,Rare,Hunter Bow
+Bow of Wadjet,Legendary,Light Bow
+Bronze Axe,Common,Heavy Blade
+Bronze Bludgeon,Common,Heavy Blunt
+Bronze Epsilon Axe,Common,Heavy Blade
+Bronze Khopesh (Regular Sword),Common,Regular Sword
+Bronze Khopesh (Sickle Sword),Common,Sickle Sword
+Bronze Shield,Common,Shield
+Bronze Sword,Common,Regular Sword
+Canaanite Blade,Rare,Sickle Sword
+Ceremonial Staff,Legendary,Scepter
+Coast of Russicada,Legendary,Regular Sword
+Cobra Royale (H),Legendary,Hunter Bow
+Cobra Royale / dup,Legendary,Hunter Bow
+Collector Outfit,Rare,Outfit
+Combat Bow,Common,Hunter Bow
+Compendium,Legendary,Shield
+Composite Bow,Legendary,Light Bow
+Concealed Garment,Common,Predator Bow
+Conductor of Souls (G),Legendary,Regular Sword
+Confident Attire,Common,Outfit
+Copper Arc,Common,Predator Bow
+Copper Mace,Legendary,Heavy Blunt
+Copper Sword,Rare,Regular Sword
+Crescent Axe,Common,Heavy Blade
+Cutting Axe,Rare,Heavy Blade
+Cypriot Gabbro Head,Common,Scepter
+Cyrene's Spear,Legendary,Spear
+Daggers of Tutankhamun,Legendary,Dual Sword
+Dark Side of the Moon (G),Legendary,Outfit
+Deathstorm,Legendary,Hunter Bow
+Desert Companion,Common,Predator Bow
+Desert's Pilgrim,Rare,Mount
+Desheret Patrol Bow,Common,Hunter Bow
+Devotee of Montu,Common,Sickle Sword
+Diamond Exchange,Common,Heavy Blunt
+Djoser's Pride,Legendary,Shield
+Dress of the Coastal Realm,Legendary,Outfit
+Dress of the Foreign Realm,Legendary,Outfit
+Dress of the Northern Realm,Legendary,Outfit
+Dust-Biter (G),Rare,Regular Sword
+Dust-Biter / dup,Rare,Regular Sword
+Egyptian Hedj,Common,Outfit
+Egyptian Irtyu,Common,Outfit
+Egyptian Mare,Common,Mount
+Egyptian Wahid,Common,Outfit
+Elect of Ra,Legendary,Warrior Bow
+Engai Na-nyokie,Rare,Outfit
+Engai Narok,Rare,Outfit
+Espasa (G),Rare,Regular Sword
+Espasa / dup,Rare,Regular Sword
+Eternal Glory,Common,Mount
+Eternal Maw,Legendary,Mount
+Eyes of Horus (H),Legendary,Dual Sword
+Eyes of Horus / dup,Legendary,Dual Sword
+Face-Breaker (G),Rare,Heavy Blunt
+Face-Breaker / dup,Rare,Heavy Blunt
+Fan Axe,Rare,Heavy Blade
+Fatal Duet,Legendary,Dual Sword
+Festus's Thunder Ball,Common,Heavy Blunt
+Fidget,Common,Mount
+Freeman Sword,Common,Regular Sword
+Gasp of the Plains,Legendary,Outfit
+Gazelle Bow,Common,Hunter Bow
+Golden Feather (H),Legendary,Spear
+Golden Feather / dup,Legendary,Spear
+Golden Wolf,Legendary,Regular Sword
+Gracious Attire,Common,Outfit
+Gruesome Mattock,Rare,Heavy Blunt
+Guardian,Common,Mount
+Gudbrand Blade,Common,Regular Sword
+Hades,Rare,Predator Bow
+Handy Spear,Common,Spear
+Harpe of Perseus,Rare,Sickle Sword
+Hasanlu Skeptron,Common,Scepter
+Hash and Slash,Rare,Dual Sword
+Headache Remedy,Legendary,Heavy Blunt
+Headsplitter,Legendary,Heavy Blade
+Heliopolis Marauder,Common,Outfit
+Hepzefa's Sword,Legendary,Regular Sword
+Hippopotamus Charge,Rare,Warrior Bow
+Humbaba's Fang,Legendary,Regular Sword
+Hunger of the Underworld (H),Legendary,Light Bow
+Hunger of the Underworld / dup,Legendary,Light Bow
+Hunting Bow,Common,Hunter Bow
+Hyperion,Rare,Light Bow
+Im-Khent Bow,Common,Hunter Bow
+Imitation Siwan Khopesh,Legendary,Sickle Sword
+Immortal (G),Rare,Regular Sword
+Immortal / dup,Rare,Regular Sword
+Inspiration,Common,Mount
+Iron Shotel,Common,Sickle Sword
+Iron Spear,Common,Spear
+Isu Armor,Legendary,Outfit
+Jackal's Gaze (G),Legendary,Warrior Bow
+Jebel Barkal,Legendary,Predator Bow
+Jutes & Cimbri,Common,Dual Sword
+Kaa,Rare,Mount
+Keeper of Harmony,Legendary,Heavy Blunt
+Khamsin,Common,Mount
+Khamudid Lost Blade,Common,Regular Sword
+Khopesh Sword,Common,Sickle Sword
+Khryselakatos,Legendary,Warrior Bow
+Kku,Common,Mount
+Lance of Anhur (H),Legendary,Spear
+Lance of Anhur / dup,Legendary,Spear
+Leaf-shaped Impaler,Common,Spear
+Leviathan,Legendary,Heavy Blade
+Light Spear,Common,Spear
+Lion's Cry,Legendary,Predator Bow
+Loincloth,Legendary,Outfit
+Loincloth,Common,Outfit
+Longbow (Charging Speed),Common,Hunter Bow
+Longbow (Stealth Damage),Common,Hunter Bow
+Lord of Bones (H),Legendary,Predator Bow
+Lord of Bones / dup,Legendary,Predator Bow
+Lord of Thebes,Legendary,Scepter
+Maasai Leader,Rare,Outfit
+Maasai Warrior,Rare,Outfit
+Mace,Common,Heavy Blunt
+Madu's Shield,Common,Shield
+Majesty,Rare,Mount
+Marauder Chief,Common,Outfit
+Marauder's Garb,Common,Outfit
+Medjay Shield,Common,Shield
+Medjay Shield (Unbroken),Common,Shield
+Medusa,Rare,Heavy Blade
+Medusa's Gaze,Legendary,Shield
+Menes,Common,Mount
+Meri Amun,Legendary,Mount
+Meri Heka,Legendary,Mount
+Metal Shield,Common,Shield
+Minoan Poppy Pin,Common,Heavy Blunt
+Mirror Blades,Rare,Dual Sword
+Morning Mist,Rare,Mount
+Motivational Duet,Common,Dual Sword
+Mummy (H),Legendary,Outfit
+Mummy / dup,Legendary,Outfit
+Mushussu (H),Legendary,Heavy Blade
+Mushussu / dup,Legendary,Heavy Blade
+Mustapha's Blade,Legendary,Regular Sword
+Mut Herti (G),Rare,Mount
+Mut Herti / dup,Rare,Mount
+Mut's Sorrow,Legendary,Shield
+Mute Bow,Rare,Predator Bow
+Nebuchadnezzar's Wrath,Legendary,Heavy Blade
+Needle,Rare,Spear
+Neith,Legendary,Light Bow
+Neith's Observer,Common,Predator Bow
+Nilotic Khopesh,Common,Sickle Sword
+No Borders,Legendary,Heavy Blunt
+Nubian Bow,Common,Hunter Bow
+Nubian Scepter,Legendary,Scepter
+Obsidian Bow,Rare,Hunter Bow
+Obsidian Bow (no skills),Rare,Hunter Bow
+Ousirmaatre Setepenre,Common,Light Bow
+Overseer of All Disputes,Common,Hunter Bow
+Palmelle Carver,Legendary,Heavy Blade
+Partner (G),Rare,Mount
+Partner / dup,Rare,Mount
+Pataikos Herti,Legendary,Mount
+Pearl of Dur-Jakin,Legendary,Sickle Sword
+Peasant's Scepter (QLT 94),Common,Scepter
+Peasant's Scepter (QLT 95),Common,Scepter
+Persian Commander,Rare,Outfit
+Persian Guard,Rare,Outfit
+Persian Leader,Rare,Outfit
+Persian Legend,Rare,Outfit
+Persian Prince,Rare,Outfit
+Phalangite Shield,Legendary,Shield
+Phalanx Shield,Rare,Shield
+Pharaoh Armor (H),Legendary,Outfit
+Pharaoh Armor / dup,Legendary,Outfit
+Pharaoh's Horse,Legendary,Mount
+Pharaoh's Mace,Common,Scepter
+Pilum,Rare,Spear
+Priest of Ma'at,Rare,Warrior Bow
+Protector,Common,Outfit
+Quagga (G),Rare,Predator Bow
+Quagga (H) / dup,Rare,Predator Bow
+Quick Bow,Common,Light Bow
+Radiance of Anubis (G),Legendary,Outfit
+Rain Bow (G),Rare,Predator Bow
+Rain Bow / dup,Rare,Predator Bow
+Rain of Arrows,Common,Warrior Bow
+Raneb's Hammer,Legendary,Scepter
+Red Sea Marauder,Common,Outfit
+Reinforced Shield,Legendary,Shield
+Remission,Rare,Shield
+Revenge of Anubis (G),Legendary,Outfit
+Ritual Scepter (G),Rare,Scepter
+Ritual Scepter / dup,Rare,Scepter
+Roman Legionary,Legendary,Outfit
+Roman Marinus,Legendary,Outfit
+Roman Venator,Legendary,Outfit
+Roman Warhorse,Legendary,Mount
+Royal Chariot,Legendary,Mount
+Rusted Blade,Common,Regular Sword
+Rusty,Common,Mount
+Sanaa Khopesh,Common,Sickle Sword
+Sand-Dweller (H),Legendary,Mount
+Sand-Dweller / dup,Legendary,Mount
+Sarissa,Legendary,Spear
+Savannah (G),Rare,Shield
+Savannah / dup,Rare,Shield
+Savannah Marauder,Common,Outfit
+Scales of Truth (G),Legendary,Warrior Bow
+Scalloped Head Axe,Common,Heavy Blade
+Scarab Soldier (H),Legendary,Outfit
+Scarab Soldier / dup,Legendary,Outfit
+Scepter of Amun,Rare,Scepter
+Scepter of Thaati (G),Rare,Scepter
+Scepter of Thaati / dup,Rare,Scepter
+Scissor Blades,Common,Dual Sword
+Scorpio (H),Rare,Shield
+Scorpio / dup,Legendary,Shield
+Scorpion Sting (H),Legendary,Scepter
+Scorpion Sting / dup,Legendary,Scepter
+Scout Chariot,Common,Mount
+Sea People's Blade,Rare,Regular Sword
+Sekhmet Costume,Legendary,Outfit
+Sekhmet's Spear,Legendary,Spear
+Self-help Remedy,Common,Hunter Bow
+Serpent Axe,Legendary,Heavy Blade
+Serpent's Scourge,Common,Hunter Bow
+Serqet's Carapace,Legendary,Outfit
+Servant of Amun,Legendary,Outfit
+Shaman,Legendary,Outfit
+Shark Fin (H),Legendary,Heavy Blade
+Shark Fin / dup,Legendary,Heavy Blade
+Sharp Cut,Common,Heavy Blade
+Sharur,Rare,Heavy Blunt
+Shield of Aaru (G),Legendary,Shield
+Shield of Hilarus,Rare,Shield
+Silver Wind (H),Legendary,Regular Sword
+Silver Wind / dup,Legendary,Regular Sword
+Siwan Scepter,Common,Scepter
+Skull-Breaker (G),Rare,Heavy Blunt
+Skull-Breaker / dup,Rare,Heavy Blunt
+Smoke and Mirrors,Legendary,Predator Bow
+Soft Breeze,Common,Mount
+Spade of all Trades,Common,Heavy Blunt
+Spirit-Cather (G),Rare,Light Bow
+Spirit-Cather (H) / dup,Rare,Light Bow
+SPQR (H),Legendary,Shield
+SPQR / dup,Legendary,Shield
+Staff of Sehetep,Legendary,Scepter
+Storm Blades,Legendary,Dual Sword
+Stranger,Common,Mount
+Sty,Common,Warrior Bow
+Sunslayer (G),Legendary,Regular Sword
+Swift Branch (G),Rare,Warrior Bow
+Swift Branch / dup,Rare,Warrior Bow
+Sword of Ptah,Rare,Sickle Sword
+Sword of the Duat (G),Legendary,Regular Sword
+Sword of the Free,Rare,Regular Sword
+Ta-Sety Bow,Legendary,Hunter Bow
+The Bringer of Chaos,Common,Scepter
+The Crimson Death,Legendary,Warrior Bow
+The Falcata,Legendary,Regular Sword
+The False Camel,Common,Mount
+The Fourth Plague,Legendary,Warrior Bow
+The Jackal (G),Legendary,Scepter
+The Living One,Legendary,Sickle Sword
+The Parthian,Rare,Light Bow
+The Phoenix,Legendary,Spear
+The Sekhmet (G),Legendary,Scepter
+The Serpent of Serapis,Rare,Spear
+The Uab Block,Common,Heavy Blunt
+Thorn (H),Legendary,Sickle Sword
+Thorn / dup,Legendary,Sickle Sword
+Thunder,Common,Mount
+Thutmosid Sword,Common,Regular Sword
+Til-Tuba Bow,Common,Warrior Bow
+Tomb Protector (G),Legendary,Shield
+Toxotai Bow,Common,Light Bow
+Travelers Curve,Legenday,Hunter Bow
+Trophy Hunter,Legendary,Predator Bow
+True Friend,Rare,Mount
+Twin Blades,Common,Dual Sword
+Unicorn,Legendary,Mount
+Unicorn (H),Legendary,Mount
+Venomous Grace,Legendary,Dual Sword
+Victoria,Common,Predator Bow
+Viper's Tooth,Legendary,Sickle Sword
+Wall of Sand,Common,Warrior Bow
+Wanderer,Common,Mount
+War Chariot,Rare,Mount
+Was Scepter (G),Legendary,Scepter
+Whisper of Death,Common,Predator Bow
+Wildland Bow,Common,Predator Bow
+Wolfsbane,Rare,Hunter Bow
+Wooden Shield,Common,Shield
+Worn Shield,Common,Shield
