@@ -10,6 +10,8 @@ use App\Http\Controllers\HelperController;
 class WeaponsController extends Controller
 {
     public $section = 'Weapons';
+    public $melee_category = ['Dual Sword', 'Heavy Blade', 'Heavy Blunt', 'Regular Sword', 'Scepter', 'Sickle Sword', 'Spear'];
+    public $ranged_category = ['Hunter Bow', 'Light Bow', 'Predator Bow', 'Warrior Bow'];
 
     public function index($type) {
         if ($type == 'melee') {
@@ -30,7 +32,8 @@ class WeaponsController extends Controller
 
         return view('layout', [
             'title' => $title,
-            'section' => $this->section
+            'section' => $this->section,
+            'category' => $this->melee_category
         ]);
     }
 
@@ -40,7 +43,8 @@ class WeaponsController extends Controller
 
         return view('layout', [
             'title' => $title,
-            'section' => $this->section
+            'section' => $this->section,
+            'category' => $this->ranged_category
         ]);
     }
 
@@ -50,13 +54,17 @@ class WeaponsController extends Controller
 
         return view('layout', [
             'title' => $title,
-            'section' => $this->section
+            'section' => $this->section,
+            'category' => []
         ]);
     }
 
     //HANDLE SHOW ALL MELEE WEAPONS
     public function showTable($type, $query = '') {
         $page = Input::get("page") !== null ? Input::get("page") : 1;
+        $category = Input::get("category") !== null ? Input::get("category") : '';
+        $rarity = Input::get("rarity") !== null ? Input::get("rarity") : '';
+
         //SUPAYA GA RUSAK
         if ($page < 1) {
             $page = 1;
@@ -66,16 +74,20 @@ class WeaponsController extends Controller
         if ($type == 'melee') {
             $title = 'Melee Weapons';
             $data = DB::table('gears')
-                ->whereIn('category', ['Dual Sword', 'Heavy Blade', 'Heavy Blunt', 'Scepter', 'Sickle Sword', 'Spear', 'Regular Sword'])
+                ->whereIn('category', $this->melee_category)
                 ->where('name', 'LIKE', '%'.$query.'%')
+                ->where('category', 'LIKE', '%'.$category.'%')
+                ->where('rarity', 'LIKE', '%'.$rarity.'%')
                 ->offset(($page-1)*10)
                 ->orderBy('name')
                 ->limit(10)
                 ->get();
 
             $countData = DB::table('gears')
-                ->whereIn('category', ['Dual Sword', 'Heavy Blade', 'Heavy Blunt', 'Scepter', 'Sickle Sword', 'Spear', 'Regular Sword'])
+                ->whereIn('category', $this->melee_category)
                 ->where('name', 'LIKE', '%'.$query.'%')
+                ->where('category', 'LIKE', '%'.$category.'%')
+                ->where('rarity', 'LIKE', '%'.$rarity.'%')
                 ->count();
 
             $max_pages = ceil($countData/10);
@@ -83,16 +95,20 @@ class WeaponsController extends Controller
         else if ($type == 'ranged') {
             $title = 'Ranged Weapons';
             $data = DB::table('gears')
-                ->whereIn('category', ['Warrior Bow' , 'Predator Bow', 'Light Bow', 'Hunter Bow'])
+                ->whereIn('category', $this->ranged_category)
                 ->where('name', 'LIKE', '%'.$query.'%')
+                ->where('category', 'LIKE', '%'.$category.'%')
+                ->where('rarity', 'LIKE', '%'.$rarity.'%')
                 ->offset(($page-1)*10)
                 ->orderBy('name')
                 ->limit(10)
                 ->get();  
             
             $countData = DB::table('gears')
-                ->whereIn('category', ['Warrior Bow' , 'Predator Bow', 'Light Bow', 'Hunter Bow'])
+                ->whereIn('category', $this->ranged_category)
                 ->where('name', 'LIKE', '%'.$query.'%')
+                ->where('category', 'LIKE', '%'.$category.'%')
+                ->where('rarity', 'LIKE', '%'.$rarity.'%')
                 ->count();
 
             $max_pages = ceil($countData/10);
@@ -102,6 +118,8 @@ class WeaponsController extends Controller
             $data = DB::table('gears')
                 ->where('category', '=', 'Shield')
                 ->where('name', 'LIKE', '%'.$query.'%')
+                ->where('category', 'LIKE', '%'.$category.'%')
+                ->where('rarity', 'LIKE', '%'.$rarity.'%')
                 ->offset(($page-1)*10)
                 ->orderBy('name')
                 ->limit(10)
@@ -110,6 +128,8 @@ class WeaponsController extends Controller
             $countData = DB::table('gears')
                 ->where('category', '=', 'Shield')
                 ->where('name', 'LIKE', '%'.$query.'%')
+                ->where('category', 'LIKE', '%'.$category.'%')
+                ->where('rarity', 'LIKE', '%'.$rarity.'%')
                 ->count();
 
             $max_pages = ceil($countData/10);  

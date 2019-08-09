@@ -145,19 +145,19 @@ class ProgressController extends Controller
         ];
 
         //Predator Bow
-        $predator_box_length = DB::table('gears')
+        $predator_bow_length = DB::table('gears')
             ->where('category', 'Predator Bow')
             ->count();
-        $predator_box_done = DB::table('gears')
+        $predator_bow_done = DB::table('gears')
             ->where('category', 'Predator Bow')
             ->where('owned', 1)
             ->count();
-        $ranged_length += $predator_box_length;
-        $ranged_done += $predator_box_done;
+        $ranged_length += $predator_bow_length;
+        $ranged_done += $predator_bow_done;
         $ranged[] = [
-            'name' => 'Predator Box',
-            'length' => $predator_box_length,
-            'done' => $predator_box_done
+            'name' => 'Predator Bow',
+            'length' => $predator_bow_length,
+            'done' => $predator_bow_done
         ];
 
         //Light Bow

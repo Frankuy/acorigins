@@ -77,13 +77,43 @@
             <div class="columns">
                 <div class="column is-three-quarters">
                     <h1 class="title has-text-warning" id='judul'>{{$title}}</h1>
-                    <div class="field">
-                        <div class="control has-icons-right">
+                    <div class="field has-addons is-marginless">
+                        <div class="control has-icons-right is-expanded">
                             <input id="searchBox" class="input is-warning" autocomplete=off type="text" placeholder="Search...">
                             <span class="icon has-text-warning is-medium is-right" id='loading'><i class="fas fa-lg fa-circle-notch fa-spin"></i></span>
                         </div>
+                        <div class="control">
+                            <a class="button is-warning buttonfilter">
+                                <i class="fas fa-filter"></i>
+                            </a>
+                        </div>
                     </div>
-
+                    <div class="box has-background-warning filterBox" style="display : none">
+                        <div class="field is-grouped">
+                            <div class="control is-expanded">
+                                <div class="select is-small is-success is-fullwidth">
+                                    <select id="rarity">
+                                        <option selected value="">Select Rarity</option>
+                                        <option value="Legendary">Legendary</option>
+                                        <option value="Rare">Rare</option>
+                                        <option value="Common">Common</option>
+                                    </select>
+                                </div>
+                            </div>
+                            @if (count($category) > 0)
+                            <div class="control is-expanded">
+                                <div class="select is-small is-success is-fullwidth">
+                                    <select id="category">
+                                        <option selected value="">Select Category</option>
+                                        @foreach ($category as $c)
+                                            <option value="{{$c}}">{{$c}}</option>
+                                        @endforeach
+                                    </select>
+                                </div>
+                            </div>
+                            @endif
+                        </div>
+                    </div>
                     <div id="container-table" class="has-text-centered"></div>
                 </div>
                 <div class="column container-progress is-hidden-touch"></div>
@@ -93,6 +123,7 @@
     <script type="text/javascript" charset="utf8" src="{{asset('js/ajax.js')}}"></script>
     <script type="text/javascript" charset="utf8" src="{{asset('js/navbar.js')}}"></script>
     <script type="text/javascript" charset="utf8" src="{{asset('js/stats.js')}}"></script>
+    <script type="text/javascript" charset="utf8" src="{{asset('js/filter.js')}}"></script>
     @if ($title == 'Melee Weapons' || $title == 'Ranged Weapons' || $title == 'Shields')
         <script type="text/javascript" charset="utf8" src="{{asset('js/weapons.js')}}"></script>
     @elseif ($title == 'Outfits')
