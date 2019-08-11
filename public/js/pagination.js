@@ -12,19 +12,19 @@ $(document).ready(function() {
 
 $.paginate = function() {
     if ($('#judul').text() == 'Melee Weapons') {
-        ajax('weapons','melee',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#category option:selected").val());
+        ajax('weapons','melee',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#category option:selected").val(), $("#owned option:selected").val());
     }
     else if ($('#judul').text() == 'Ranged Weapons') {
-        ajax('weapons','ranged',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#category option:selected").val());
+        ajax('weapons','ranged',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#category option:selected").val(), $("#owned option:selected").val());
     }
     else if ($('#judul').text() == 'Shields') {
-        ajax('weapons','shield',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), '');
+        ajax('weapons','shield',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), '', $("#owned option:selected").val());
     }
     else if ($('#judul').text() == 'Outfits') {
-        ajaxSimple('outfits',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val());
+        ajaxSimple('outfits',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#owned option:selected").val());
     }
     else if ($('#judul').text() == 'Mounts') {
-        ajaxSimple('mounts',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val());
+        ajaxSimple('mounts',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#owned option:selected").val());
     };
 }
 

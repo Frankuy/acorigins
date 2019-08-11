@@ -64,6 +64,7 @@ class WeaponsController extends Controller
         $page = Input::get("page") !== null ? Input::get("page") : 1;
         $category = Input::get("category") !== null ? Input::get("category") : '';
         $rarity = Input::get("rarity") !== null ? Input::get("rarity") : '';
+        $owned = Input::get("owned") !== null  ? Input::get("owned") : '';
 
         //SUPAYA GA RUSAK
         if ($page < 1) {
@@ -78,6 +79,7 @@ class WeaponsController extends Controller
                 ->where('name', 'LIKE', '%'.$query.'%')
                 ->where('category', 'LIKE', '%'.$category.'%')
                 ->where('rarity', 'LIKE', '%'.$rarity.'%')
+                ->where('owned', 'LIKE', '%'.$owned.'%')
                 ->offset(($page-1)*10)
                 ->orderBy('name')
                 ->limit(10)
@@ -88,6 +90,7 @@ class WeaponsController extends Controller
                 ->where('name', 'LIKE', '%'.$query.'%')
                 ->where('category', 'LIKE', '%'.$category.'%')
                 ->where('rarity', 'LIKE', '%'.$rarity.'%')
+                ->where('owned', 'LIKE', '%'.$owned.'%')
                 ->count();
 
             $max_pages = ceil($countData/10);
@@ -99,6 +102,7 @@ class WeaponsController extends Controller
                 ->where('name', 'LIKE', '%'.$query.'%')
                 ->where('category', 'LIKE', '%'.$category.'%')
                 ->where('rarity', 'LIKE', '%'.$rarity.'%')
+                ->where('owned', 'LIKE', '%'.$owned.'%')
                 ->offset(($page-1)*10)
                 ->orderBy('name')
                 ->limit(10)
@@ -109,6 +113,7 @@ class WeaponsController extends Controller
                 ->where('name', 'LIKE', '%'.$query.'%')
                 ->where('category', 'LIKE', '%'.$category.'%')
                 ->where('rarity', 'LIKE', '%'.$rarity.'%')
+                ->where('owned', 'LIKE', '%'.$owned.'%')
                 ->count();
 
             $max_pages = ceil($countData/10);
@@ -120,6 +125,7 @@ class WeaponsController extends Controller
                 ->where('name', 'LIKE', '%'.$query.'%')
                 ->where('category', 'LIKE', '%'.$category.'%')
                 ->where('rarity', 'LIKE', '%'.$rarity.'%')
+                ->where('owned', 'LIKE', '%'.$owned.'%')
                 ->offset(($page-1)*10)
                 ->orderBy('name')
                 ->limit(10)
@@ -130,6 +136,7 @@ class WeaponsController extends Controller
                 ->where('name', 'LIKE', '%'.$query.'%')
                 ->where('category', 'LIKE', '%'.$category.'%')
                 ->where('rarity', 'LIKE', '%'.$rarity.'%')
+                ->where('owned', 'LIKE', '%'.$owned.'%')
                 ->count();
 
             $max_pages = ceil($countData/10);  

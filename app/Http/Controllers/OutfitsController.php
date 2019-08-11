@@ -22,6 +22,7 @@ class OutfitsController extends Controller
     public function showTable($query = '') {
         $page = Input::get("page") !== null ? Input::get("page") : 1;
         $rarity = Input::get("rarity") !== null ? Input::get("rarity") : '';
+        $owned = Input::get("owned") !== null ? Input::get("owned") : '';
         //SUPAYA GA RUSAK
         if ($page < 1) {
             $page = 1;
@@ -33,6 +34,7 @@ class OutfitsController extends Controller
             ->where('category', '=', 'Outfit')
             ->where('name', 'LIKE', '%'.$query.'%')
             ->where('rarity', 'LIKE', '%'.$rarity.'%')
+            ->where('owned', 'LIKE', '%'.$owned.'%')
             ->offset(($page-1)*10)
             ->orderBy('name')
             ->limit(10)
@@ -42,6 +44,7 @@ class OutfitsController extends Controller
             ->where('category', '=', 'Outfit')
             ->where('name', 'LIKE', '%'.$query.'%')
             ->where('rarity', 'LIKE', '%'.$rarity.'%')
+            ->where('owned', 'LIKE', '%'.$owned.'%')
             ->count();
 
         $max_pages = ceil($countData/10);

@@ -1,6 +1,6 @@
 @if (count($data) == 0) 
     <div class="has-text-centered">
-        <h1 class="title has-text-warning">'{{$query}}' not exist</h1>
+        <h1 class="title has-text-warning">No matching record found</h1>
     </div>
 @else 
     <table class="table is-fullwidth is-size-7-mobile has-text-white">

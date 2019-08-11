@@ -112,6 +112,15 @@
                                 </div>
                             </div>
                             @endif
+                            <div class="control is-expanded">
+                                <div class="select is-small is-success is-fullwidth">
+                                    <select id="owned">
+                                        <option selected value="">Select Owned</option>
+                                        <option value="1">&#10004;</option>
+                                        <option value="0">&#215;</option>
+                                    </select>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div id="container-table" class="has-text-centered"></div>
