@@ -8,30 +8,12 @@ $(document).ready(function() {
         $('.pagination-next').attr('disabled', true);
         $('.pagination-next').off('click');
     }
-})
-
-$.paginate = function() {
-    if ($('#judul').text() == 'Melee Weapons') {
-        ajax('weapons','melee',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#category option:selected").val(), $("#owned option:selected").val());
-    }
-    else if ($('#judul').text() == 'Ranged Weapons') {
-        ajax('weapons','ranged',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#category option:selected").val(), $("#owned option:selected").val());
-    }
-    else if ($('#judul').text() == 'Shields') {
-        ajax('weapons','shield',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), '', $("#owned option:selected").val());
-    }
-    else if ($('#judul').text() == 'Outfits') {
-        ajaxSimple('outfits',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#owned option:selected").val());
-    }
-    else if ($('#judul').text() == 'Mounts') {
-        ajaxSimple('mounts',$('#searchBox').val(), $('.pagination-link.is-active').text(), $("#rarity option:selected").val(), $("#owned option:selected").val());
-    };
-}
+});
 
 $('.pagination-link').click(function() {
     $('.pagination-link.is-active').removeClass('is-active');
     $(this).addClass('is-active');
-    $.paginate();
+    getData($('.pagination-link.is-active').text());
 });
 
 $('.pagination-next').click(function() {
@@ -40,7 +22,7 @@ $('.pagination-next').click(function() {
     $('.pagination-link').filter(function() {
         return $(this).text() == currPage + 1;
     }).addClass('is-active');
-    $.paginate();
+    getData($('.pagination-link.is-active').text());
 });
 
 $('.pagination-previous').click(function() {
@@ -49,5 +31,5 @@ $('.pagination-previous').click(function() {
     $('.pagination-link').filter(function() {
         return $(this).text() == currPage - 1;
     }).addClass('is-active');
-    $.paginate();
+    getData($('.pagination-link.is-active').text());
 });

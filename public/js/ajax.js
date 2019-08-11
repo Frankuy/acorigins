@@ -9,3 +9,21 @@ function ajaxSimple(section, query, page, rarity, owned) {
         $('#container-table').html(data);
     });
 }
+
+function getData(page) {
+    if ($('#judul').text() == 'Melee Weapons') {
+        return ajax('weapons','melee',$('#searchBox').val(), page, $("#rarity option:selected").val(), $("#category option:selected").val(), $("#owned option:selected").val());
+    }
+    else if ($('#judul').text() == 'Ranged Weapons') {
+        return ajax('weapons','ranged',$('#searchBox').val(), page, $("#rarity option:selected").val(), $("#category option:selected").val(), $("#owned option:selected").val());
+    }
+    else if ($('#judul').text() == 'Shields') {
+        return ajax('weapons','shield',$('#searchBox').val(), page, $("#rarity option:selected").val(), '', $("#owned option:selected").val());
+    }
+    else if ($('#judul').text() == 'Outfits') {
+        return ajaxSimple('outfits',$('#searchBox').val(), page, $("#rarity option:selected").val(), $("#owned option:selected").val());
+    }
+    else if ($('#judul').text() == 'Mounts') {
+        return ajaxSimple('mounts',$('#searchBox').val(), page, $("#rarity option:selected").val(), $("#owned option:selected").val());
+    };
+}

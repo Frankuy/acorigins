@@ -133,13 +133,7 @@
     <script type="text/javascript" charset="utf8" src="{{asset('js/navbar.js')}}"></script>
     <script type="text/javascript" charset="utf8" src="{{asset('js/stats.js')}}"></script>
     <script type="text/javascript" charset="utf8" src="{{asset('js/filter.js')}}"></script>
-    @if ($title == 'Melee Weapons' || $title == 'Ranged Weapons' || $title == 'Shields')
-        <script type="text/javascript" charset="utf8" src="{{asset('js/weapons.js')}}"></script>
-    @elseif ($title == 'Outfits')
-        <script type="text/javascript" charset="utf8" src="{{asset('js/outfits.js')}}"></script>
-    @elseif ($title == 'Mounts')
-        <script type="text/javascript" charset="utf8" src="{{asset('js/mount.js')}}"></script>
-    @endif
+    <script type="text/javascript" charset="utf8" src="{{asset('js/data.js')}}"></script>
 </body>
 
 </html>
