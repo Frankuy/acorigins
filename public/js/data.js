@@ -7,13 +7,18 @@ $(document).ready(function() {
     );
 });
 
+var ajaxget = null;
+
 $('#searchBox').keyup(function() {
     $('#loading').show();
-    getData(1).done(
-        function() {
-            $('#loading').hide();
-        }
-    );
+    clearInterval(ajaxget);
+    ajaxget = setInterval(function() {
+        getData(1).done(
+            function() {
+                $('#loading').hide();
+            }
+        )
+    }, 1000);
 });
 
 $('#rarity').change(function() {
