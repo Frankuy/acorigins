@@ -9,6 +9,6 @@ $('.checkicon').click(function() {
 })
 
 function checkClick(id) {
-    $.get('/check/' + id)
+    $.get(base + '/check/' + id)
     getProgress();
 }

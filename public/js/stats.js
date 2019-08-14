@@ -1,5 +1,5 @@
 function getProgress() {
-    $.get('/progress', function(data) {
+    $.get(base + '/progress', function(data) {
         $('.container-progress').html(data);
         $('.modal-progress').html(data);
         $('.meleeStatContainer').hide();
