@@ -11,28 +11,24 @@
 |
 */
 
-Route::get('/clear-cache', function() {
-    $exitCode = Artisan::call('config:clear');
-    $exitCode = Artisan::call('cache:clear');
-    $exitCode = Artisan::call('config:cache');
-    return 'DONE';
-});
-
 //Route For LOGIN
 Route::get('login', function() {
     return view('login');
 });
-
 Route::post('login', 'ChecksController@login');
 
+Route::get('register', function() {
+    return view('register');
+});
+Route::post('register', 'ChecksController@register');
+
 Route::get('logout', function() {
-    Cookie::queue('username', '', -9999);
+    Cookie::queue('user_id', '', -9999);
+    Cookie::queue('key', '', -9999);
     return redirect('/login');
 });
 
 Route::redirect('/', 'weapons/melee', 301);
-
-
 Route::redirect('/weapons', 'weapons/melee', 301);
 
 Route::group(['middleware' => 'admin'], function () {

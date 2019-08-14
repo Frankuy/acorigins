@@ -3,3 +3,7 @@ $(".navbar-burger").click(function() {
     $(".navbar-menu").toggleClass("is-active bg-navbar");
     $(".navbar-brand").toggleClass("bg-navbar");
 });
+
+$(".delete").click(function() {
+    $(".message").hide();
+})

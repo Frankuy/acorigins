@@ -49,3 +49,9 @@ html {
     right: 30px;
     border-radius: 9999px;
 }
+.message-header {
+    border-radius: 100px;
+}
+.message.is-danger {
+    background-color : transparent;
+}

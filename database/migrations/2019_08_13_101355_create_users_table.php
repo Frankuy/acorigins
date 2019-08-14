@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateGearsTable extends Migration
+class CreateUsersTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,10 @@ class CreateGearsTable extends Migration
      */
     public function up()
     {
-        Schema::create('gears', function (Blueprint $table) {
+        Schema::create('users', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('name', 100);
-            $table->string('rarity', 10);
-            $table->string('category', 20);
+            $table->string('username', 100)->unique();
+            $table->string('password', 255);
         });
     }
 
@@ -28,6 +27,6 @@ class CreateGearsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('gears');
+        Schema::dropIfExists('users');
     }
 }

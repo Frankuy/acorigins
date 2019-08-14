@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use DB;
+use Illuminate\Support\Facades\Cookie;
 
 class ProgressController extends Controller
 {
@@ -11,6 +12,10 @@ class ProgressController extends Controller
         $melee = [];
         $melee_length = 0;
         $melee_done = 0;
+        
+        $check_user = DB::table('checks')
+                ->select('user_id', 'gear_id', 'owned')
+                ->where('user_id', Cookie::get('user_id'));
 
         //DUAL SWORD
         $dual_sword_length = DB::table('gears')
@@ -18,8 +23,11 @@ class ProgressController extends Controller
             ->count();
         $dual_sword_done = DB::table('gears')
             ->where('category', 'Dual Sword')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
+
         $melee_length += $dual_sword_length;
         $melee_done += $dual_sword_done;
         $melee[] = [
@@ -34,7 +42,9 @@ class ProgressController extends Controller
             ->count();
         $heavy_blade_done = DB::table('gears')
             ->where('category', 'Heavy Blade')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $melee_length += $heavy_blade_length;
         $melee_done += $heavy_blade_done;
@@ -50,7 +60,9 @@ class ProgressController extends Controller
             ->count();
         $heavy_blunt_done = DB::table('gears')
             ->where('category', 'Heavy Blunt')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $melee_length += $heavy_blunt_length;
         $melee_done += $heavy_blunt_done;
@@ -66,7 +78,9 @@ class ProgressController extends Controller
             ->count();
         $regular_sword_done = DB::table('gears')
             ->where('category', 'Regular Sword')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $melee_length += $regular_sword_length;
         $melee_done += $regular_sword_done;
@@ -82,7 +96,9 @@ class ProgressController extends Controller
             ->count();
         $scepter_done = DB::table('gears')
             ->where('category', 'Scepter')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $melee_length += $scepter_length;
         $melee_done += $scepter_done;
@@ -98,7 +114,9 @@ class ProgressController extends Controller
             ->count();
         $sickle_sword_done = DB::table('gears')
             ->where('category', 'Sickle Sword')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $melee_length += $sickle_sword_length;
         $melee_done += $sickle_sword_done;
@@ -114,7 +132,9 @@ class ProgressController extends Controller
             ->count();
         $spear_done = DB::table('gears')
             ->where('category', 'Spear')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $melee_length += $spear_length;
         $melee_done += $spear_done;
@@ -134,7 +154,9 @@ class ProgressController extends Controller
             ->count();
         $hunter_bow_done = DB::table('gears')
             ->where('category', 'Hunter Bow')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $ranged_length += $hunter_bow_length;
         $ranged_done += $hunter_bow_done;
@@ -150,7 +172,9 @@ class ProgressController extends Controller
             ->count();
         $predator_bow_done = DB::table('gears')
             ->where('category', 'Predator Bow')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $ranged_length += $predator_bow_length;
         $ranged_done += $predator_bow_done;
@@ -166,7 +190,9 @@ class ProgressController extends Controller
             ->count();
         $light_bow_done = DB::table('gears')
             ->where('category', 'Light Bow')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $ranged_length += $light_bow_length;
         $ranged_done += $light_bow_done;
@@ -182,7 +208,9 @@ class ProgressController extends Controller
             ->count();
         $warrior_bow_done = DB::table('gears')
             ->where('category', 'Warrior Bow')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
         $ranged_length += $warrior_bow_length;
         $ranged_done += $warrior_bow_done;
@@ -198,7 +226,9 @@ class ProgressController extends Controller
             ->count();
         $shield_done = DB::table('gears')
             ->where('category', 'Shield')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
 
         //Outfit
@@ -207,7 +237,9 @@ class ProgressController extends Controller
             ->count();
         $outfit_done = DB::table('gears')
             ->where('category', 'Outfit')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
 
         //Mount
@@ -216,7 +248,9 @@ class ProgressController extends Controller
             ->count();
         $mount_done = DB::table('gears')
             ->where('category', 'Mount')
-            ->where('owned', 1)
+            ->joinSub($check_user, 'check_user', function ($join) {
+                $join->on('gears.id', '=', 'check_user.gear_id');
+            })
             ->count();
 
         return view('progress', [

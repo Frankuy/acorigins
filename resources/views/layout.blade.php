@@ -116,8 +116,8 @@
                                 <div class="select is-small is-success is-fullwidth">
                                     <select id="owned">
                                         <option selected value="">Select Owned</option>
-                                        <option value="1">&#10004;</option>
-                                        <option value="0">&#215;</option>
+                                        <option value="true">&#10004;</option>
+                                        <option value="false">&#215;</option>
                                     </select>
                                 </div>
                             </div>

@@ -37,7 +37,6 @@ class GearListSeeder extends Seeder
                     $gear->name = $name;
                     $gear->rarity = $rarity;
                     $gear->category = $category;
-                    $gear->owned = FALSE;
                     $gear->save();
 
                     $this->command->info($gear["name"]. ' | '. $gear["rarity"]. ' | '. $gear["category"]);

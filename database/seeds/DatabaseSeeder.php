@@ -13,5 +13,8 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(GearListSeeder::class);
         $this->command->info('Gear table seeded!');
+
+        $this->call(CheckListSeeder::class);
+        $this->command->info('Check table seeded!');
     }
 }

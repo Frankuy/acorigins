@@ -17,23 +17,23 @@
         <div class="hero-head">
             <nav class="navbar is-fixed-top has-background-warning">
                 <div class="container">
-                        <div class="navbar-brand">
-                            <div class="navbar-item">
-                                <img src="{{asset('images/logo.png')}}" width="28" height="28">
-                            </div>
-                            <span class="navbar-burger" data-target="navbarMenuHeroA">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
+                    <div class="navbar-brand">
+                        <div class="navbar-item">
+                            <img src="{{asset('images/logo.png')}}" width="28" height="28">
                         </div>
-                        <div id="navbarMenuHeroA" class="navbar-menu">
-                            <div class="navbar-end">
-                                <a href="{{url('/register')}}" class="navbar-item">
-                                    REGISTER
-                                </a>
-                            </div>
+                        <span class="navbar-burger" data-target="navbarMenuHeroA">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </span>
+                    </div>
+                    <div id="navbarMenuHeroA" class="navbar-menu">
+                        <div class="navbar-end">
+                            <a href="{{url('/login')}}" class="navbar-item">
+                                LOGIN
+                            </a>
                         </div>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -50,9 +50,9 @@
                         </div>
                         @endif
                         <h1 class="title has-text-warning">
-                            LOGIN
+                            REGISTER
                         </h1>
-                        <form action={{url('/login')}} method="POST">
+                        <form action={{url('/register')}} method="POST">
                             @csrf
                             <div class="field is-horizontal">
                                 <div class="field-label is-normal">
@@ -80,7 +80,7 @@
                             </div>
                             <div class="field">
                                 <p class="control has-text-right">
-                                    <input class="button is-warning" type="submit" name="login" value="Login">
+                                    <input class="button is-warning" type="submit" name="login" value="Register">
                                 </p>
                             </div>
                         </form>

@@ -1,0 +1,432 @@
+1,Kweh (G),Legendary,Mount,1
+2,Ultima Blade (G),Legendary,Regular Sword,0
+3,Ziedrich (G),Legendary,Shield,0
+4,Balance (H),Legendary,Shield,0
+5,Bark of Ra (H),Legendary,Spear,0
+6,Nekhbet's Wing (H),Legendary,Warrior Bow,0
+7,Ruler of the Storm (H),Legendary,Sickle Sword,0
+8,Stick of Bastet (H),Legendary,Scepter,0
+9,Balance,Legendary,Shield,0
+10,Bark of Ra,Legendary,Spear,0
+11,Nekhbet's Wing,Legendary,Warrior Bow,0
+12,Ruler of the Storm,Legendary,Sickle Sword,0
+13,Stick of Bastet,Legendary,Scepter,0
+14,Aguilar's Outfit (C),Legendary,Outfit,1
+15,Altair's Outfit (C),Legendary,Outfit,1
+16,Bird of Prey (C),Rare,Shield,0
+17,Chop-Chop (C),Rare,Sickle Sword,0
+18,Corrupted Soul (C),Legendary,Light Bow,0
+19,Crocodile's Fang (C),Rare,Heavy Blade,0
+20,Crown Jewel (C),Rare,Warrior Bow,0
+21,Edward's Outfit (C),Legendary,Outfit,1
+22,Ezio's Outfit (C),Legendary,Outfit,1
+23,Harlequin (C),Rare,Regular Sword,0
+24,Hemet (C),Rare,Hunter Bow,0
+25,Hunter's Fur (C),Legendary,Outfit,1
+26,Kush Shield (C),Rare,Shield,0
+27,Shamshir (C),Rare,Regular Sword,0
+28,Sycamore (C),Rare,Heavy Blunt,0
+29,The Trial (C),Rare,Spear,0
+30,Warden's Oath (C),Legendary,Outfit,1
+31,Desert Cobra (H),Legendary,Outfit,1
+32,Eye of Apep (H),Legendary,Heavy Blunt,1
+33,Fangs (H),Legendary,Mount,1
+34,Snakes on a Shield (H),Legendary,Shield,1
+35,The Fang (H),Legendary,Sickle Sword,1
+36,Celestial Raiment (H),Legendary,Outfit,0
+37,Courage and Justice (H),Legendary,Dual Sword,0
+38,Guardian Lion (H),Legendary,Shield,0
+39,Hou Yi's Bow (H),Legendary,Warrior Bow,0
+40,Sword of Goujian (H),Legendary,Regular Sword,0
+41,Celestial Raiment,Legendary,Outfit,0
+42,Courage and Justice,Legendary,Dual Sword,0
+43,Guardian Lion,Legendary,Shield,0
+44,Hou Yi's Bow,Legendary,Warrior Bow,0
+45,Sword of Goujian,Legendary,Regular Sword,0
+46,Fanged Mace (H),Legendary,Heavy Blunt,0
+47,Flint Spear (H),Legendary,Spear,0
+48,Horn Bow (H),Legendary,Hunter Bow,0
+49,Recurve Bow [no perks],Legendary,Light Bow,0
+50,Fanged Mace,Legendary,Heavy Blunt,0
+51,Flint Spear,Legendary,Spear,0
+52,Horn Bow,Legendary,Hunter Bow,0
+53,Recurve Bow (H),Legendary,Light Bow,0
+54,Flickering Daggers (H),Legendary,Dual Sword,0
+55,Glowing Mace (H),Rare,Heavy Blunt,0
+56,Lightning's Strike (H),Legendary,Hunter Bow,0
+57,Midnight Sun (H),Legendary,Mount,0
+58,Moonlit Shield (H),Legendary,Shield,0
+59,Imelda Shield (H),Legendary,Shield,0
+60,Ippei Blade (H),Legendary,Regular Sword,0
+61,Sahalin Axe (H),Legendary,Heavy Blade,0
+62,Tempest Blade (H),Legendary,Regular Sword,0
+63,Imelda Shield,Legendary,Shield,0
+64,Ippei Blade,Legendary,Regular Sword,0
+65,Sahalin Axe,Legendary,Heavy Blade,0
+66,Tempest Blade,Legendary,Regular Sword,0
+67,Hercules' Gladius (H),Legendary,Regular Sword,0
+68,Labrys (H),Legendary,Heavy Blade,0
+69,Neptune's Grasp (H),Legendary,Spear,0
+70,Palladium (H),Legendary,Shield,0
+71,Spaniard's Armor (H),Legendary,Outfit,0
+72,Hercules' Gladius,Legendary,Regular Sword,0
+73,Labrys,Legendary,Heavy Blade,0
+74,Neptune's Grasp,Legendary,Spear,0
+75,Palladium,Legendary,Shield,0
+76,Spaniard's Armor,Legendary,Outfit,0
+77,Blades of Thoth,Legendary,Dual Sword,0
+78,Bow of Ra,Legendary,Light Bow,0
+79,Gertha,Legendary,Mount,0
+80,Hammer of Ptah,Legendary,Mount,0
+81,Hidden One,Legendary,Outfit,0
+82,Painless Death,Legendary,Hunter Bow,0
+83,Tooth of Sobek,Legendary,Heavy Blade,0
+84,Apophis Herw (H),Legendary,Mount,1
+85,Crescent Moon (H),Legendary,Hunter Bow,1
+86,Morning Sun (H),Legendary,Light Bow,1
+87,Sun and Moon (H),Legendary,Shield,1
+88,Vestment of Horus (H),Legendary,Outfit,1
+89,Griffin (H),Legendary,Light Bow,0
+90,Lion's Mane (H),Legendary,Hunter Bow,0
+91,Wings of Ashur (H),Legendary,Warrior Bow,0
+92,Griffin,Legendary,Light Bow,0
+93,Lion's Mane,Legendary,Hunter Bow,0
+94,Wings of Ashur,Legendary,Warrior Bow,0
+95,Aruna (H),Legendary,Sickle Sword,0
+96,Eye of Ra (H),Legendary,Heavy Blunt,0
+97,Wadjet's Knives (H),Legendary,Dual Sword,0
+98,Aruna,Legendary,Sickle Sword,0
+99,Eye of Ra,Legendary,Heavy Blunt,0
+100,Wadjet's Knives,Legendary,Dual Sword,0
+101,Mythical Warrior,Legendary,Outfit,0
+102,Abyssal Steed (H),Legendary,Mount,0
+103,Barbed Longbow (H),Legendary,Predator Bow,0
+104,Forlorn Hope (H),Legendary,Heavy Blade,0
+105,Ripper (H),Legendary,Sickle Sword,0
+106,Shadow Warrior (H),Legendary,Outfit,0
+107,Abyssal Steed,Legendary,Mount,0
+108,Barbed Longbow,Legendary,Predator Bow,0
+109,Forlorn Hope,Legendary,Heavy Blade,0
+110,Ripper,Legendary,Sickle Sword,0
+111,Shadow Warrior,Legendary,Outfit,0
+112,Centurion's Armor (H),Legendary,Outfit,1
+113,Divide et Impera (H),Legendary,Heavy Blade,1
+114,Lucius,  Roman Stallion (H),Legendary,Mount,1
+115,Vincit qui Patitur (H),Legendary,Shield,1
+116,Vox Populi (H),Legendary,Regular Sword,1
+117,Calamity Blade (G),Legendary,Regular Sword,0
+118,Calamity Blade (H),Rare,Regular Sword,0
+119,Eternal Vigil (H),Legendary,Mount,0
+120,Pharaoh's Regalia (H),Legendary,Outfit,0
+121,Scorpion Shield (H),Legendary,Shield,0
+122,Serket's Reach (H),Legendary,Warrior Bow,0
+123,Song of the Desert (H),Legendary,Sickle Sword,0
+124,Cotton Swab (H),Legendary,Scepter,0
+125,Cupid's Bow (H),Legendary,Light Bow,0
+126,LOLCAT (H),Legendary,Heavy Blunt,0
+127,Swordfish (H),Legendary,Regular Sword,0
+128,Unicamel (H),Legendary,Mount,0
+129,Aa Nekhtou,Legendary,Mount,0
+130,Acacia Rod,Rare,Scepter,0
+131,Achilles Heel Seeker,Common,Hunter Bow,0
+132,Adamant Reed (G),Rare,Spear,0
+133,Aegean Prince,Rare,Shield,1
+134,Alchemist's Dream,Rare,Hunter Bow,0
+135,Aldebaran (QLT 94),Rare,Warrior Bow,1
+136,Aldebaran (QLT 96),Rare,Warrior Bow,0
+137,Alexander's Shield,Rare,Shield,0
+138,Alexandria's Light (H),Legendary,Scepter,0
+139,Amenhotep's Bow,Legendary,Predator Bow,0
+140,Ammit (G),Legendary,Shield,0
+141,Amun's Blade,Common,Regular Sword,1
+142,Amun's Might,Legendary,Regular Sword,0
+143,Ancestral Bow,Rare,Predator Bow,0
+144,Annapolis,Common,Mount,0
+145,Antigonus Shield,Rare,Shield,1
+146,Apedemak,Legendary,Light Bow,0
+147,Apep's Staff (H),Legendary,Scepter,0
+148,Arc Bow,Common,Light Bow,1
+149,Ash Bow,Legendary,Hunter Bow,1
+150,Assessor of Ma'at (G),Legendary,Warrior Bow,0
+151,Aten's End,Legendary,Spear,0
+152,Auxiliary Shield (G),Rare,Shield,0
+153,Basus,Common,Mount,1
+154,Bathhouse Towel,Common,Outfit,1
+155,Battle of Gibeon Blade,Common,Sickle Sword,1
+156,Battleaxe,Common,Heavy Blade,1
+157,Battos' Bow,Rare,Warrior Bow,0
+158,Bayek's Outfit,Common,Outfit,1
+159,Berserker Blade,Legendary,Sickle Sword,0
+160,Big Game Bow,Common,Hunter Bow,1
+161,Bitter Bow,Rare,Light Bow,1
+162,Bitter Bow (empty),Rare,Light Bow,0
+163,Black Arrow,Common,Mount,1
+164,Black Hood,Legendary,Outfit,0
+165,Bladed Scepter,Rare,Scepter,1
+166,Blazing Glory,Rare,Mount,0
+167,Bone Cracker,Rare,Mount,0
+168,Bone-Cracker,Rare,Heavy Blunt,1
+169,Boredom Bane,Common,Heavy Blunt,1
+170,Bow of Arash,Rare,Hunter Bow,0
+171,Bow of Wadjet,Legendary,Light Bow,0
+172,Bronze Axe,Common,Heavy Blade,1
+173,Bronze Bludgeon,Common,Heavy Blunt,1
+174,Bronze Epsilon Axe,Common,Heavy Blade,1
+175,Bronze Khopesh (Regular Sword),Common,Regular Sword,0
+176,Bronze Khopesh (Sickle Sword),Common,Sickle Sword,1
+177,Bronze Shield,Common,Shield,1
+178,Bronze Sword,Common,Regular Sword,1
+179,Canaanite Blade,Rare,Sickle Sword,1
+180,Ceremonial Staff,Legendary,Scepter,0
+181,Coast of Russicada,Legendary,Regular Sword,0
+182,Cobra Royale (H),Legendary,Hunter Bow,0
+183,Collector Outfit,Rare,Outfit,0
+184,Combat Bow,Common,Hunter Bow,1
+185,Compendium,Legendary,Shield,0
+186,Composite Bow,Legendary,Light Bow,0
+187,Concealed Garment,Common,Predator Bow,1
+188,Conductor of Souls (G),Legendary,Regular Sword,0
+189,Confident Attire,Common,Outfit,0
+190,Copper Arc,Common,Predator Bow,1
+191,Copper Mace,Legendary,Heavy Blunt,1
+192,Copper Sword,Rare,Regular Sword,1
+193,Crescent Axe,Common,Heavy Blade,1
+194,Cutting Axe,Rare,Heavy Blade,1
+195,Cypriot Gabbro Head,Common,Scepter,1
+196,Cyrene's Spear,Legendary,Spear,0
+197,Daggers of Tutankhamun,Legendary,Dual Sword,0
+198,Dark Side of the Moon (G),Legendary,Outfit,0
+199,Deathstorm,Legendary,Hunter Bow,0
+200,Desert Companion,Common,Predator Bow,1
+201,Desert's Pilgrim,Rare,Mount,1
+202,Desheret Patrol Bow,Common,Hunter Bow,1
+203,Devotee of Montu,Common,Sickle Sword,1
+204,Diamond Exchange,Common,Heavy Blunt,1
+205,Djoser's Pride,Legendary,Shield,1
+206,Dress of the Coastal Realm,Legendary,Outfit,0
+207,Dress of the Foreign Realm,Legendary,Outfit,0
+208,Dress of the Northern Realm,Legendary,Outfit,0
+209,Dust-Biter (G),Rare,Regular Sword,0
+210,Egyptian Hedj,Common,Outfit,0
+211,Egyptian Irtyu,Common,Outfit,0
+212,Egyptian Mare,Common,Mount,0
+213,Egyptian Wahid,Common,Outfit,0
+214,Elect of Ra,Legendary,Warrior Bow,0
+215,Engai Na-nyokie,Rare,Outfit,0
+216,Engai Narok,Rare,Outfit,0
+217,Espasa (G),Rare,Regular Sword,0
+218,Eternal Glory,Common,Mount,1
+219,Eternal Maw,Legendary,Mount,0
+220,Eyes of Horus (H),Legendary,Dual Sword,0
+221,Face-Breaker (G),Rare,Heavy Blunt,0
+222,Fan Axe,Rare,Heavy Blade,1
+223,Fatal Duet,Legendary,Dual Sword,1
+224,Festus's Thunder Ball,Common,Heavy Blunt,1
+225,Fidget,Common,Mount,0
+226,Freeman Sword,Common,Regular Sword,0
+227,Gasp of the Plains,Legendary,Outfit,0
+228,Gazelle Bow,Common,Hunter Bow,0
+229,Golden Feather (H),Legendary,Spear,0
+230,Golden Wolf,Legendary,Regular Sword,1
+231,Gracious Attire,Common,Outfit,0
+232,Gruesome Mattock,Rare,Heavy Blunt,1
+233,Guardian,Common,Mount,0
+234,Gudbrand Blade,Common,Regular Sword,1
+235,Hades,Rare,Predator Bow,1
+236,Handy Spear,Common,Spear,1
+237,Harpe of Perseus,Rare,Sickle Sword,1
+238,Hasanlu Skeptron,Common,Scepter,0
+239,Hash and Slash,Rare,Dual Sword,1
+240,Headache Remedy,Legendary,Heavy Blunt,0
+241,Headsplitter,Legendary,Heavy Blade,0
+242,Heliopolis Marauder,Common,Outfit,0
+243,Hepzefa's Sword,Legendary,Regular Sword,0
+244,Hippopotamus Charge,Rare,Warrior Bow,1
+245,Humbaba's Fang,Legendary,Regular Sword,0
+246,Hunger of the Underworld (H),Legendary,Light Bow,0
+247,Hunting Bow,Common,Hunter Bow,1
+248,Hyperion,Rare,Light Bow,1
+249,Im-Khent Bow,Common,Hunter Bow,1
+250,Imitation Siwan Khopesh,Legendary,Sickle Sword,1
+251,Immortal (G),Rare,Regular Sword,0
+252,Inspiration,Common,Mount,0
+253,Iron Shotel,Common,Sickle Sword,1
+254,Iron Spear,Common,Spear,1
+255,Isu Armor,Legendary,Outfit,0
+256,Jackal's Gaze (G),Legendary,Warrior Bow,0
+257,Jebel Barkal,Legendary,Predator Bow,0
+258,Jutes & Cimbri,Common,Dual Sword,1
+259,Kaa,Rare,Mount,0
+260,Keeper of Harmony,Legendary,Heavy Blunt,0
+261,Khamsin,Common,Mount,1
+262,Khamudid Lost Blade,Common,Regular Sword,1
+263,Khopesh Sword,Common,Sickle Sword,1
+264,Khryselakatos,Legendary,Warrior Bow,0
+265,Kku,Common,Mount,0
+266,Lance of Anhur (H),Legendary,Spear,0
+267,Leaf-shaped Impaler,Common,Spear,1
+268,Leviathan,Legendary,Heavy Blade,0
+269,Light Spear,Common,Spear,1
+270,Lion's Cry,Legendary,Predator Bow,0
+271,Loincloth,Legendary,Outfit,0
+272,Loincloth,Common,Outfit,0
+273,Longbow (Charging Speed),Common,Hunter Bow,1
+274,Longbow (Stealth Damage),Common,Hunter Bow,0
+275,Lord of Bones (H),Legendary,Predator Bow,0
+276,Lord of Thebes,Legendary,Scepter,0
+277,Maasai Leader,Rare,Outfit,0
+278,Maasai Warrior,Rare,Outfit,0
+279,Mace,Common,Heavy Blunt,1
+280,Madu's Shield,Common,Shield,0
+281,Majesty,Rare,Mount,0
+282,Marauder Chief,Common,Outfit,0
+283,Marauder's Garb,Common,Outfit,0
+284,Medjay Shield,Common,Shield,1
+285,Medjay Shield (Unbroken),Common,Shield,0
+286,Medusa,Rare,Heavy Blade,0
+287,Medusa's Gaze,Legendary,Shield,0
+288,Menes,Common,Mount,0
+289,Meri Amun,Legendary,Mount,1
+290,Meri Heka,Legendary,Mount,0
+291,Metal Shield,Common,Shield,1
+292,Minoan Poppy Pin,Common,Heavy Blunt,1
+293,Mirror Blades,Rare,Dual Sword,1
+294,Morning Mist,Rare,Mount,0
+295,Motivational Duet,Common,Dual Sword,1
+296,Mummy (H),Legendary,Outfit,0
+297,Mushussu (H),Legendary,Heavy Blade,0
+298,Mustapha's Blade,Legendary,Regular Sword,0
+299,Mut Herti (G),Rare,Mount,0
+300,Mut's Sorrow,Legendary,Shield,0
+301,Mute Bow,Rare,Predator Bow,1
+302,Nebuchadnezzar's Wrath,Legendary,Heavy Blade,0
+303,Needle,Rare,Spear,0
+304,Neith,Legendary,Light Bow,1
+305,Neith's Observer,Common,Predator Bow,1
+306,Nilotic Khopesh,Common,Sickle Sword,1
+307,No Borders,Legendary,Heavy Blunt,0
+308,Nubian Bow,Common,Hunter Bow,1
+309,Nubian Scepter,Legendary,Scepter,0
+310,Obsidian Bow,Rare,Hunter Bow,1
+311,Obsidian Bow (no skills),Rare,Hunter Bow,0
+312,Ousirmaatre Setepenre,Common,Light Bow,1
+313,Overseer of All Disputes,Common,Hunter Bow,1
+314,Palmelle Carver,Legendary,Heavy Blade,0
+315,Partner (G),Rare,Mount,0
+316,Pataikos Herti,Legendary,Mount,1
+317,Pearl of Dur-Jakin,Legendary,Sickle Sword,0
+318,Peasant's Scepter (QLT 94),Common,Scepter,1
+319,Peasant's Scepter (QLT 95),Common,Scepter,0
+320,Persian Commander,Rare,Outfit,0
+321,Persian Guard,Rare,Outfit,0
+322,Persian Leader,Rare,Outfit,0
+323,Persian Legend,Rare,Outfit,0
+324,Persian Prince,Rare,Outfit,0
+325,Phalangite Shield,Legendary,Shield,0
+326,Phalanx Shield,Rare,Shield,1
+327,Pharaoh Armor (H),Legendary,Outfit,0
+328,Pharaoh's Horse,Legendary,Mount,0
+329,Pharaoh's Mace,Common,Scepter,1
+330,Pilum,Rare,Spear,1
+331,Priest of Ma'at,Rare,Warrior Bow,0
+332,Protector,Common,Outfit,0
+333,Quagga (G),Rare,Predator Bow,0
+334,Quick Bow,Common,Light Bow,1
+335,Radiance of Anubis (G),Legendary,Outfit,0
+336,Rain Bow (G),Rare,Predator Bow,0
+337,Rain of Arrows,Common,Warrior Bow,1
+338,Raneb's Hammer,Legendary,Scepter,0
+339,Red Sea Marauder,Common,Outfit,0
+340,Reinforced Shield,Legendary,Shield,0
+341,Remission,Rare,Shield,1
+342,Revenge of Anubis (G),Legendary,Outfit,0
+343,Ritual Scepter (G),Rare,Scepter,0
+344,Roman Legionary,Legendary,Outfit,0
+345,Roman Marinus,Legendary,Outfit,0
+346,Roman Venator,Legendary,Outfit,0
+347,Roman Warhorse,Legendary,Mount,0
+348,Royal Chariot,Legendary,Mount,0
+349,Rusted Blade,Common,Regular Sword,1
+350,Rusty,Common,Mount,0
+351,Sanaa Khopesh,Common,Sickle Sword,1
+352,Sand-Dweller (H),Legendary,Mount,0
+353,Sarissa,Legendary,Spear,1
+354,Savannah (G),Rare,Shield,0
+355,Savannah Marauder,Common,Outfit,0
+356,Scales of Truth (G),Legendary,Warrior Bow,0
+357,Scalloped Head Axe,Common,Heavy Blade,1
+358,Scarab Soldier (H),Legendary,Outfit,0
+359,Scepter of Amun,Rare,Scepter,0
+360,Scepter of Thaati (G),Rare,Scepter,0
+361,Scissor Blades,Common,Dual Sword,1
+362,Scorpio (H),Rare,Shield,0
+363,Scorpion Sting (H),Legendary,Scepter,0
+364,Scout Chariot,Common,Mount,0
+365,Sea People's Blade,Rare,Regular Sword,1
+366,Sekhmet Costume,Legendary,Outfit,1
+367,Sekhmet's Spear,Legendary,Spear,0
+368,Self-help Remedy,Common,Hunter Bow,1
+369,Serpent Axe,Legendary,Heavy Blade,0
+370,Serpent's Scourge,Common,Hunter Bow,1
+371,Serqet's Carapace,Legendary,Outfit,0
+372,Servant of Amun,Legendary,Outfit,0
+373,Shaman,Legendary,Outfit,0
+374,Shark Fin (H),Legendary,Heavy Blade,0
+375,Sharp Cut,Common,Heavy Blade,1
+376,Sharur,Rare,Heavy Blunt,0
+377,Shield of Aaru (G),Legendary,Shield,0
+378,Shield of Hilarus,Rare,Shield,1
+379,Silver Wind (H),Legendary,Regular Sword,0
+380,Siwan Scepter,Common,Scepter,1
+381,Skull-Breaker (G),Rare,Heavy Blunt,0
+382,Smoke and Mirrors,Legendary,Predator Bow,1
+383,Soft Breeze,Common,Mount,0
+384,Spade of all Trades,Common,Heavy Blunt,1
+385,Spirit-Cather (G),Rare,Light Bow,0
+386,SPQR (H),Legendary,Shield,0
+387,Staff of Sehetep,Legendary,Scepter,1
+388,Storm Blades,Legendary,Dual Sword,0
+389,Stranger,Common,Mount,0
+390,Sty,Common,Warrior Bow,1
+391,Sunslayer (G),Legendary,Regular Sword,0
+392,Swift Branch (G),Rare,Warrior Bow,0
+393,Sword of Ptah,Rare,Sickle Sword,1
+394,Sword of the Duat (G),Legendary,Regular Sword,0
+395,Sword of the Free,Rare,Regular Sword,0
+396,Ta-Sety Bow,Legendary,Hunter Bow,0
+397,The Bringer of Chaos,Common,Scepter,0
+398,The Crimson Death,Legendary,Warrior Bow,0
+399,The Falcata,Legendary,Regular Sword,0
+400,The False Camel,Common,Mount,0
+401,The Fourth Plague,Legendary,Warrior Bow,0
+402,The Jackal (G),Legendary,Scepter,0
+403,The Living One,Legendary,Sickle Sword,0
+404,The Parthian,Rare,Light Bow,1
+405,The Phoenix,Legendary,Spear,0
+406,The Sekhmet (G),Legendary,Scepter,0
+407,The Serpent of Serapis,Rare,Spear,1
+408,The Uab Block,Common,Heavy Blunt,1
+409,Thorn (H),Legendary,Sickle Sword,0
+410,Thunder,Common,Mount,0
+411,Thutmosid Sword,Common,Regular Sword,1
+412,Til-Tuba Bow,Common,Warrior Bow,1
+413,Tomb Protector (G),Legendary,Shield,0
+414,Toxotai Bow,Common,Light Bow,1
+415,Travelers Curve,Legenday,Hunter Bow,0
+416,Trophy Hunter,Legendary,Predator Bow,0
+417,True Friend,Rare,Mount,1
+418,Twin Blades,Common,Dual Sword,1
+419,Unicorn,Legendary,Mount,0
+420,Unicorn (H),Legendary,Mount,0
+421,Venomous Grace,Legendary,Dual Sword,0
+422,Victoria,Common,Predator Bow,1
+423,Viper's Tooth,Legendary,Sickle Sword,0
+424,Wall of Sand,Common,Warrior Bow,1
+425,Wanderer,Common,Mount,1
+426,War Chariot,Rare,Mount,0
+427,Was Scepter (G),Legendary,Scepter,0
+428,Whisper of Death,Common,Predator Bow,1
+429,Wildland Bow,Common,Predator Bow,1
+430,Wolfsbane,Rare,Hunter Bow,1
+431,Wooden Shield,Common,Shield,1
+432,Worn Shield,Common,Shield,1
