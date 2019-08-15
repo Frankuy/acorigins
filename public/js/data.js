@@ -11,8 +11,8 @@ var ajaxget = null;
 
 $('#searchBox').keyup(function() {
     $('#loading').show();
-    clearInterval(ajaxget);
-    ajaxget = setInterval(function() {
+    clearTimeout(ajaxget);
+    ajaxget = setTimeout(function() {
         getData(1).done(
             function() {
                 $('#loading').hide();
